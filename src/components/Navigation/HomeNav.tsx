@@ -15,8 +15,8 @@ const HomeNav = () => {
   return (
     <nav
       className={`absolute flex justify-center items-center w-3/4 h-[10%] ${
-        hashNav === "" ? "" : "top-0"
-      }`}
+        hashNav === "" || hashNav === "#" ? "" : "top-[90%]"
+      } transition-all`}
     >
       <ul className="flex justify-between items-start flex-row w-full">
         <li>

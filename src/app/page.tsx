@@ -1,7 +1,8 @@
 import Footer from "@/components/Footer/Footer";
 import HomeNav from "@/components/Navigation/HomeNav";
 import Slides from "@/components/Slides/Slides";
-import { useEffect } from "react";
+import Video from "@/components/Video/Video";
+import X from "@/components/X/X";
 import type { SwiperSlideProps, SwiperProps } from "swiper/react";
 // import Youtube from "react-youtube";
 
@@ -23,9 +24,10 @@ declare global {
 export default function Home() {
   return (
     <>
-      <main className="relative flex justify-center items-center overflow-hidden">
+      <main className="relative flex justify-center items-center overflow-hidden z-50">
+        <X></X>
+        <Video></Video>
         <HomeNav></HomeNav>
-        {/* <Youtube videoId=""></Youtube> */}
         <Slides></Slides>
       </main>
       <Footer></Footer>

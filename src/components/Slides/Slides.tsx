@@ -19,8 +19,8 @@ const Slides = () => {
   return (
     <div
       className={`rounded-t-sm absolute h-[90%] ${
-        hashNav === "" ? "top-[100%]" : "top-[10%]"
-      } dark:bg-dark-secondary w-full`}
+        hashNav === "" || hashNav === "#" ? "top-[100%]" : "top-[0%]"
+      } dark:bg-dark-secondary w-full transition-all`}
     >
       <SwiperContainer slidesPerView={1} className={`w-full h-full`}>
         <Students></Students>

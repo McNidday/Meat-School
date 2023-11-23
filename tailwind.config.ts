@@ -13,6 +13,8 @@ const config: Config = {
       "dark-text": "#bdbdbd",
       "dark-active": "#c3073f",
       black: "#000000",
+      white: "#FFFFFF",
+      backdrop: "#000000c2",
     },
     extend: {
       backgroundImage: {
