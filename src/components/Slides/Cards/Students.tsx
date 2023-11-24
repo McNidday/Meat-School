@@ -21,10 +21,10 @@ const Students = () => {
             "/stacey.jpg",
             "/pxfuel.jpg",
             "/pxfuel.jpg",
-          ].map((n) => {
+          ].map((n, i) => {
             return (
               <div
-                key={n}
+                key={n + i}
                 className="w-[200px] h-[280px] bg-wh rounded overflow-hidden border-2 flex flex-col justify-between bg-black"
               >
                 <div className="relative border-b-2 overflow-hidden w-[200px] h-[150px] flex justify-center items-center">

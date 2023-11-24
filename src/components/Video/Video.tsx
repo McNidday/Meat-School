@@ -12,9 +12,14 @@ const Video = () => {
           playerVars: {
             // https://developers.google.com/youtube/player_parameters
             autoplay: 1,
+            rel: 0,
+            showinfo: 0,
+            showsearch: 0,
             controls: 0,
-            mute: 1,
             loop: 1,
+            enablejsapi: 1,
+            mute: 1,
+            playlist: "AmC9SmCBUj4",
           },
         }}
       ></YouTube>

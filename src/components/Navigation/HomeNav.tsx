@@ -20,16 +20,36 @@ const HomeNav = () => {
     >
       <ul className="flex justify-between items-start flex-row w-full">
         <li>
-          <Link href={"#students"}>Students</Link>
+          <Link
+            href={"#students"}
+            className={`${hashNav === "#students" ? "text-dark-primary" : ""}`}
+          >
+            Students
+          </Link>
         </li>
         <li>
-          <Link href={"#services"}>Services</Link>
+          <Link
+            href={"#services"}
+            className={`${hashNav === "#services" ? "text-dark-primary" : ""}`}
+          >
+            Services
+          </Link>
         </li>
         <li>
-          <Link href={"#products"}>Products</Link>
+          <Link
+            href={"#products"}
+            className={`${hashNav === "#products" ? "text-dark-primary" : ""}`}
+          >
+            Products
+          </Link>
         </li>
         <li>
-          <Link href={"#aboutus"}>About Us</Link>
+          <Link
+            href={"#aboutus"}
+            className={`${hashNav === "#aboutus" ? "text-dark-primary" : ""}`}
+          >
+            About Us
+          </Link>
         </li>
       </ul>
     </nav>
