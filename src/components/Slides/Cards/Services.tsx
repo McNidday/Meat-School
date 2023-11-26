@@ -64,17 +64,20 @@ const Services = () => {
         <div className="h-[95%] w-[30%] bg-dark-primary rounded">
           <form className="flex flex-col items-center">
             <input
+              type="username"
               placeholder="UserName"
-              className="w-[90%] my-4 p-4 rounded"
+              className="w-[90%] my-4 p-4 rounded text-black outline-none"
             ></input>
             <p>OR</p>
             <input
+              type="email"
               placeholder="Email"
-              className="w-[90%] my-4 p-4 rounded"
+              className="w-[90%] my-4 p-4 rounded text-black outline-none"
             ></input>
             <input
+              type="password"
               placeholder="Password"
-              className="w-[90%] my-4 p-4 rounded"
+              className="w-[90%] my-4 p-4 rounded text-black outline-none"
             ></input>
             <button className="rounded w-28 h-8 bg-black my-0">Login</button>
             <p className="w-[90%] p-0 my-2 text-center">{`You don't have a Nidday's meat land account, Don't worry ヾ(⌐■_■)ノ♪, Click below to sign up`}</p>

@@ -22,7 +22,9 @@ const HomeNav = () => {
         <li>
           <Link
             href={"#students"}
-            className={`${hashNav === "#students" ? "text-dark-primary" : ""}`}
+            className={`${
+              hashNav === "#students" ? "text-dark-primary" : ""
+            } select-none`}
           >
             Students
           </Link>
@@ -30,7 +32,9 @@ const HomeNav = () => {
         <li>
           <Link
             href={"#services"}
-            className={`${hashNav === "#services" ? "text-dark-primary" : ""}`}
+            className={`${
+              hashNav === "#services" ? "text-dark-primary" : ""
+            } select-none`}
           >
             Services
           </Link>
@@ -38,7 +42,9 @@ const HomeNav = () => {
         <li>
           <Link
             href={"#products"}
-            className={`${hashNav === "#products" ? "text-dark-primary" : ""}`}
+            className={`${
+              hashNav === "#products" ? "text-dark-primary" : ""
+            } select-none`}
           >
             Products
           </Link>
@@ -46,7 +52,9 @@ const HomeNav = () => {
         <li>
           <Link
             href={"#aboutus"}
-            className={`${hashNav === "#aboutus" ? "text-dark-primary" : ""}`}
+            className={`${
+              hashNav === "#aboutus" ? "text-dark-primary" : ""
+            } select-none`}
           >
             About Us
           </Link>

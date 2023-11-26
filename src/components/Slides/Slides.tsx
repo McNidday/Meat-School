@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { SwiperContainer, SwiperSlide } from "@/Utils/Swiper";
+import { SwiperContainer } from "@/Utils/Swiper";
 import Students from "./Cards/Students";
 import Services from "./Cards/Services";
 import Products from "./Cards/Products";
@@ -22,7 +22,11 @@ const Slides = () => {
         hashNav === "" || hashNav === "#" ? "top-[100%]" : "top-[0%]"
       } dark:bg-dark-secondary w-full transition-all`}
     >
-      <SwiperContainer slidesPerView={1} className={`w-full h-full`}>
+      <SwiperContainer
+        slidesPerView={1}
+        allowTouchMove={false}
+        className={`w-full h-full`}
+      >
         <Students></Students>
         <Services></Services>
         <Products></Products>
