@@ -23,7 +23,7 @@ const HomeNav = () => {
           <Link
             href={"#students"}
             className={`${
-              hashNav === "#students" ? "text-dark-primary" : ""
+              hashNav === "#students" ? "text-dark-primary" : "text-white"
             } select-none`}
           >
             Students
@@ -33,7 +33,7 @@ const HomeNav = () => {
           <Link
             href={"#services"}
             className={`${
-              hashNav === "#services" ? "text-dark-primary" : ""
+              hashNav === "#services" ? "text-dark-primary" : "text-white"
             } select-none`}
           >
             Services
@@ -43,7 +43,7 @@ const HomeNav = () => {
           <Link
             href={"#products"}
             className={`${
-              hashNav === "#products" ? "text-dark-primary" : ""
+              hashNav === "#products" ? "text-dark-primary" : "text-white"
             } select-none`}
           >
             Products
@@ -53,7 +53,7 @@ const HomeNav = () => {
           <Link
             href={"#aboutus"}
             className={`${
-              hashNav === "#aboutus" ? "text-dark-primary" : ""
+              hashNav === "#aboutus" ? "text-dark-primary" : "text-white"
             } select-none`}
           >
             About Us
